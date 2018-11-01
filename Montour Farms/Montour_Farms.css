@@ -1,0 +1,140 @@
+		.logo_div{
+			width: 16%;
+			height: 16%;
+		}
+		.link:hover{
+				text-decoration: none;
+				color: #01763c;
+				
+		}
+		.name{
+			margin-top: 4%;
+			width: 100%;
+			margin-left: 4%;
+
+		}
+		hr{
+			color: #7dc496;
+			border-style: solid;
+			margin-left: 2%;
+			margin-right: 2%;
+			border-width: 1px;
+			border-color: #01763c;
+		}
+		ul li{
+			display: inline;
+		}
+		.menu_div{
+			margin-top: -1%;
+			margin-left: 0;
+			margin-bottom: 0.09%;
+		}
+
+		.line{
+			margin-top: -0.4%;
+		}
+		
+		.abc{
+			
+			width: 80%;
+			margin-left: 10%;
+		}
+		.end{
+			background-color: #01763c;
+			color: white;
+			font-family: 'Marcellus SC', serif;
+			font-size: 15px;
+			padding-top: 10px;
+			letter-spacing: 3px;
+			
+			padding-left: 10px;
+		}
+		.link{
+			color: #01763c;
+			text-decoration: none;
+			font-family: 'Marcellus SC', serif;
+			width: 15%;
+			font-size: 110%;
+			width: 110px;
+			padding-left: 5.2%;
+			padding-right: 5.2%;
+			padding-top:0.4%;
+			padding-bottom: 0.4%;
+			letter-spacing: 2px;
+		}
+		.link:hover{
+			background-color: #01763c;
+			border-color: #01763c;
+			font-weight: bold;
+			color: white;
+			border-radius: 3px;
+			text-decoration: none;
+		}
+		.linl:visited{
+			color: #01763c	;
+			text-decoration: none;
+			font-family: 'Marcellus SC', serif;
+			width: 15%;
+			font-size: 130%;
+			width: 110px;
+			padding-left: 5.2%;
+			padding-right: 5.2%;
+			padding-top:0.4%;
+			padding-bottom: 0.4%;
+		}
+		.panel{
+			border-color: #01763c	;
+			width: 80%;
+		}
+		.panel-heading{
+			background-color: #01763c;	
+			font-family: 'Marcellus SC', serif;
+			font-size: 130%;
+			font-weight: bold;
+			color:white ;
+			letter-spacing: 3px;
+			text-align: left;
+		}
+		.feedback{
+			color: white;
+		}
+		.panel-default .panel-heading{
+			background-color: #01763c;
+		}
+		.panel-body p{
+			font-family: 
+			color:white;
+			font-family: 'Marcellus SC', serif;
+			text-align: left;
+			font-size: 130%;
+
+		}
+		.panel-body label{
+			float: left;
+			font-family: 'Marcellus SC', serif;
+		}
+		.text{
+			float: left;
+			font-family: 'Marcellus SC', serif;
+			color: #01763c;
+		}
+		.ta{
+			float: left;
+			font-family: 'Marcellus SC', serif;
+			margin-left: -2%;
+			width: 70%;
+			max-width: 800px;
+			height: 100px;
+			max-height: 10	0px;
+			color: #01763c;
+		}
+		.submit{
+			float:left;
+			margin-left: 2%;
+			background-color:#01763c;
+			border-style: solid;
+			border-color: #01763c;
+			color: white; 
+			font-family: 'Marcellus SC', serif;
+			letter-spacing: 1px;
+		}
