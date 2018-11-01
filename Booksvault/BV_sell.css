@@ -1,0 +1,187 @@
+.name{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #fdeb14;
+	text-decoration: none;	
+	background-color: black;
+	float: left;
+
+}
+.name1{
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #fdeb14;
+	text-decoration: none;	
+	background-color: black;
+	float: left;
+	margin-left: -18px;
+}
+.topbar{
+	background-color: black;
+  	border-radius: 0px;
+  	border-color: black;
+  	border-style: solid;
+/*	
+	border-bottom-color: black;
+	border-top-color: #fdeb14;
+	border-left-color: #fdeb14;
+	border-right-color: #fdeb14; */
+}
+
+
+hr{
+	color: white;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	background-color: white;
+}
+
+.container{
+	border-color: black;
+	border-width: 5px;
+}
+.list-group-item{
+	border-style: none;
+	margin-top: -10px;
+}
+
+.navbar{
+  background-color: black;
+  border-radius: 0px;
+  border-bottom-color: white;
+}
+
+.navb{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #fdeb14;
+  max-height: 85px;
+  margin-top: -20px;
+  padding-top: 30px;
+}
+
+.navb:hover{
+  color: #fdeb14;
+  border-bottom-color: #fdeb14;
+  border-bottom-width: 2px;
+  border-radius: 0px;
+  border-right-color: black;
+  border-left-color: black;
+}
+
+.navb:focus {
+  color: #fdeb14;
+  border-bottom-color: #fdeb14;
+  border-bottom-width: 2px;
+  border-radius: 0px;
+  border-right-color: black;
+  border-left-color: black;
+}
+.navb h3{
+  letter-spacing: 1px;
+  font-weight: none;
+}
+
+/*.db{
+  color: #fdeb14;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-radius: 0px;
+  width: 30px;
+  margin-top: 30px;
+  font-weight: bolder;
+  height: 30px;
+  float: right;
+  margin-right: 10px;
+} */
+
+.glyphicon{
+	margin-top: 35px;
+	color: #fdeb14;
+	width: 25px;
+	height: 19px;
+	float: right;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+/*.glyphicon:hover{
+  background-color: #fdeb14;
+  color: black;
+  border-style: solid;
+  border-color: #fdeb14;
+  border-radius: 5px;
+} */
+
+/*.glyphicon:focus{
+  background-color: #fdeb14;
+  color: black;
+  border-style: none;
+  border-color: #fdeb14;
+} */
+
+.ddiv{
+  background-color: black;
+  height: 83px;
+  border-left-color: black;
+
+}
+
+.ddmenu{
+	background-color: black;
+}
+.b{
+	background-color: black;
+}
+
+.ddmb{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: black;
+  color: #fdeb14;
+  border-style: solid;
+  max-height: 40px;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.ddmb:hover{
+  color: #fdeb14;
+  border-style: solid;
+  background-color: black;
+  border-left-color: #fdeb14;
+  border-right-color: #fdeb14;
+  border-width: 2px;
+  border-radius: 0px;
+}
+
+.ddmb h4{
+	margin-top: 3px;
+	letter-spacing: 1px;
+}
+
+.ddmb:focus{
+  color: #fdeb14;
+  border-style: solid;
+  background-color: black;
+  border-left-color: #fdeb14;
+  border-right-color: #fdeb14;
+  border-width: 2px;
+  border-radius: 0px;
+}
+
+ 
+.list-inline{
+	float: right;
+	margin-right:20px ;
+}
+.a{
+	background-color: black;
+}
+
+.db span{
+	padding-top: 20px;
+}
+
+.container-fluid span{
+	background-color: black;
+}

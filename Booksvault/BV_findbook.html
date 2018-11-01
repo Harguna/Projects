@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Book</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Orbitron:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="BV_findbook.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+			<!-- <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topbar">
+				<a href="google.com" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div> -->
+			<div class="hidden-xs hidden-sm col-lg-4 col-md-4 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div>
+			<div class="visible-md-8 visible-lg-8 navbar col-md-offset-4 col-lg-offset-4 hidden-xs hidden-sm topbar">
+				<ul class="list-inline" style="list-style-type: none">
+					<li><a href="BV_sellpage1.html" class="btn navb"><h3>Sell Book</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>Collection</h3></a></li>
+					<li><a href="BV_feedback.html" class="btn navb"><h3>Feedback</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>About Us</h3></a></li>
+				</ul>
+			</div>
+			<div class="hidden-md hidden-lg col-sm-10 col-xs-10 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name1">Books Vault</h1></a>
+			</div>
+
+
+			<div class="visible-xs-2 visible-sm-2 col-xs-offset-10 col-sm-offset-10 hidden-md hidden-lg topbar">
+				<div class="dropdown ddiv">
+  					<a href="#dropd"  data-toggle="collapse"><center><span class="glyphicon glyphicon-menu-hamburger"></span></center></a>
+				</div>
+			</div>
+		</div>
+
+			<div id="dropd" class="row collapse">
+				<center><ul class="list-group" style="list-style-type: none">
+					<li class="list-group-item a"><a href="BV_sellpage1.html" class="btn ddmb"><center><h4>Sell Book</h4></center></a></li>
+  					<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>Collection</h4></center></a></li>
+ 					<li class="list-group-item a"><a href="BV_feedback.html" class="btn ddmb"><center><h4>Feedback</h4></center></a></li>
+  					<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>About Us</h4></center></a></li>
+				</ul></center>
+			</div>
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+		<br><br>
+		<br><br>
+		<div class="row hidden-sm hidden-xs">
+			<form action="BV_results.html" method="POST">
+			<center>
+				<input type="text" name="search" placeholder="Search Here" class="search" required> 
+				<button type="submit" name="find" class="find">Search</button>
+				<br>
+				<br>
+				<div class="panel panel-default panel1">
+					<div class="panel-body">
+						<center><h4>Search By (optional):</h4></center>
+						<div class="radio">
+							<label><input type="radio" name="searchby">Title</label>
+							&nbsp &nbsp &nbsp &nbsp &nbsp
+							<label><input type="radio" name="searchby">Author</label>
+							&nbsp &nbsp &nbsp &nbsp &nbsp
+							<label><input type="radio" name="searchby">Publisher</label>
+						</div>
+					</div>
+				</div>
+			</center>
+			</form>
+		</div>
+
+		<div class="row hidden-lg hidden-md ">
+			<form action="BV_results.html" method="POST">
+			<center>
+				<input type="text" name="search" placeholder="Search Here" class="search2" required>
+				<button type="submit" name="find" class="find2">Search</span></button>
+				<br>
+				<br>
+				<div class="panel panel-default panel2">
+					<div class="panel-body">
+						<h4>Search by (optional):</h4>
+						<div class="radio">
+							<label><input type="radio" name="searchby">Title</label>
+							&nbsp&nbsp&nbsp
+							<label><input type="radio" name="searchby">Author</label>
+							&nbsp&nbsp&nbsp
+							<label><input type="radio" name="searchby">Publisher</label>
+						</div>
+					</div>
+				</div>
+			</center>
+			</form>
+		</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell Book</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Orbitron:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="BV_sellpage.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+		<div class="row">
+			<!-- <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topbar">
+				<a href="google.com" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div> -->
+			<div class="hidden-xs hidden-sm col-lg-4 col-md-4 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div>
+			<div class="visible-md-8 visible-lg-8 navbar col-md-offset-4 col-lg-offset-4 hidden-xs hidden-sm topbar">
+				<ul class="list-inline" style="list-style-type: none">
+					<li><a href="BV_findbook.html" class="btn navb"><h3>Find Book</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>Collection</h3></a></li>
+					<li><a href="BV_feedback.html" class="btn navb"><h3>Feedback</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>About Us</h3></a></li>
+				</ul>
+			</div>
+						<div class="hidden-md hidden-lg col-sm-10 col-xs-10 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name1">Books Vault</h1></a>
+			</div>
+
+
+			<div class="visible-xs-2 visible-sm-2 col-xs-offset-10 col-sm-offset-10 hidden-md hidden-lg topbar">
+				<div class="dropdown ddiv">
+  					<a href="#dropd"  data-toggle="collapse"><center><span class="glyphicon glyphicon-menu-hamburger"></span></center></a>
+				</div>
+			</div>
+	</div>
+
+	<div id="dropd" class="row collapse">
+		<center><ul class="list-group" style="list-style-type: none">
+			<li class="list-group-item a"><a href="BV_findbook.html" class="btn ddmb"><center><h4>Find Book</h4></center></a></li>
+  			<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>Collection</h4></center></a></li>
+  			<li class="list-group-item a"><a href="BV_feedback.html" class="btn ddmb"><center><h4>Feedback</h4></center></a></li>	
+			<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>About Us</h4></center></a></li>
+		</ul></center>
+	</div>
+
+		<div class="row">
+		<div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 ">
+		<br><br>
+			<div class="panel-heading"><center><h2>Enter Your Details</h2></center></div>
+	  		<div class="panel-body">
+		  		<div class="sellform">
+		  		<form action="BV_verification.html" method="POST">
+		  		<center><h5>(Fields marked with '*' are mandatory)</h5></center>
+		  		<br>
+		  			<label for="name"><h4>Name *:</h4></label>
+		  				<input type="text" name="name" id="name" class="text" required>
+		  			<br>
+		  			<br>
+		  			<br>
+		  			<label for="email" ><h4>Email *:</h4></label>
+		  				<input type="email" name="email" id="email" class="text">
+		  			<br><br>
+		  			<br>
+		  			<label for="num" class="fb"><h4>Contact Number *:</h4></label>
+		  				<input type="tel" name="num" id="num" maxlength="10" minlength="10" class="text" placeholder=" e.g. 9876543210" required> 
+		  			<br><br>
+		  			<br>
+		  			<h4>Select Your Contact Number Visibilty *:</h4>
+		  				<div class="radio" for>
+			  				<label><input type="radio" name="visibility">Show</label> &nbsp &nbsp &nbsp &nbsp
+			  				<label><input type="radio" name="visibility">Hide</label>
+		  				</div>
+		  			<h5>(Show: your number will be shown to all.)</h5>
+		  			<h5>(Hide: your number will be shown only to interested and verified users.)</h5>
+		  			<br>
+		  			<br>	
+		  			<center><input type="submit" name="submit" class="sub btn btn-lg"></center>
+		  			</form>
+		  			</div>
+		  		</div>
+		</div>
+		</div>
+	<hr>
+</div>
+</body>
+</html>

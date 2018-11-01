@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sell Book</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Orbitron:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="BV_sellpage.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+		<div class="row">
+			<!-- <div class="col-xs-12 col-sm-12 col-lg-12 col-md-12 topbar">
+				<a href="google.com" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div> -->
+			<div class="hidden-xs hidden-sm col-lg-4 col-md-4 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name">Books Vault</h1></a>
+			</div>
+			<div class="visible-md-8 visible-lg-8 navbar col-md-offset-4 col-lg-offset-4 hidden-xs hidden-sm topbar">
+				<ul class="list-inline" style="list-style-type: none">
+					<li><a href="BV_findbook.html" class="btn navb"><h3>Find Book</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>Collection</h3></a></li>
+					<li><a href="BV_feedback.html" class="btn navb"><h3>Feedback</h3></a></li>
+					<li><a href="#" class="btn navb"><h3>About Us</h3></a></li>
+				</ul>
+			</div>
+						<div class="hidden-md hidden-lg col-sm-10 col-xs-10 topbar">
+				<a href="booksvault.html" class="btn"><h1 class="name1">Books Vault</h1></a>
+			</div>
+
+
+			<div class="visible-xs-2 visible-sm-2 col-xs-offset-10 col-sm-offset-10 hidden-md hidden-lg topbar">
+				<div class="dropdown ddiv">
+  					<a href="#dropd"  data-toggle="collapse"><center><span class="glyphicon glyphicon-menu-hamburger"></span></center></a>
+				</div>
+			</div>
+	</div>
+
+	<div id="dropd" class="row collapse">
+		<center><ul class="list-group" style="list-style-type: none">
+			<li class="list-group-item a"><a href="BV_findbook.html" class="btn ddmb"><center><h4>Find Book</h4></center></a></li>
+
+  			<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>Collection</h4></center></a></li>
+  			<li class="list-group-item a"><a href="BV_feedback.html" class="btn ddmb"><center><h4>Feedback</h4></center></a></li>	
+			<li class="list-group-item a"><a href="#" class="btn ddmb"><center><h4>About Us</h4></center></a></li>
+		</ul></center>
+	</div>
+<!-- ----------------------------------------------------------------------------------------------------------------------- -->
+	<br>
+	<br>
+	<div class="row">
+	<div class="col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3 ">
+		<div class="panel-heading"><center><h2>Enter Book Details</h2></center></div>
+  		<div class="panel-body">
+  		<br>
+	  		<div class="sellform">
+	  		<form action="" method="POST">  
+	  			<center><h5>(Fields marked with '*' are mandatory)</h5></center>			
+	  			<center><h5>(Try to fill maximum attributes)</h5></center>
+	  			<br>
+	  			<label for="bookimg"><h4>Upload Image *:</h4></label>
+	  				<input type="file" name="bookimg" id="bookimg" accept="Image/*" >
+	  			<br>
+	  			<br>
+	  			<label for="title"><h4>Title *:</h4></label>
+	  				<input type="text" name="title" id="title" class="text" required>
+	  			<br>
+	  			<br><br>
+	  			<label for="auth"><h4>Author *:</h4></label>
+	  				<input type="text" name="auth" id="auth" class="text" required>
+	  			<br><br>
+	  			<br>
+	  			<label for="pub"><h4>Publisher *:</h4></label>
+	  				<input type="text" name="title" id="title" class="text" required>
+	  			<br><br>
+	  			<br>
+	  			<label for="con"><h4>Condition (1-5) *:</h4></label>
+	  				<input type="number" name="con" id="con" max="5" min="1" step=".5" class="con" required>
+	  			<h5 style="margin-top: -4px">(1:bad &nbsp &nbsp 5:excellent)</h5>
+	  			<br>
+	  			<label for="desc"><h4>Tags (related to book or course, to simplify search):</h4></label>
+	  				<textarea name="desc" id="desc" class="desc" placeholder="Course-related example: #engineering #undergraduate #ug #1year &#10Book-related example: #inspiration #fiction #romantic"></textarea>
+	  			<br>
+	  			<br>
+	  			<label for="state"><h4>State *:</h4></label>
+	  				<input list="list" id="state" name="state" required placeholder="Select" class="loc">
+	  				<datalist id="list">
+	  					<option>a</option>
+	  					<option>b</option>
+	  					<option>c</option>
+	  				</datalist> 
+	  			&nbsp &nbsp	
+	  			<label for="city"><h4>City *:</h4></label>
+	  				<input list="list1" id="city" name="state" required placeholder="Select" class="loc">
+	  				<datalist id="list1">
+	  					<option>d</option>
+	  					<option>e</option>
+	  					<option>f</option>
+	  				</datalist> 
+	  			<br>
+	  			<br>
+	  			<label for="price"><h4>Price *: </h4></label>
+	  				<input type="number" name="price" id="price" required min="0" class="price" maxlength="6">
+	  			&nbsp &nbsp 
+	  			<input type="checkbox" name="nego" id="nego" >
+	  			<label for="nego"><h4>Negotiable</h4></label>
+	  			<br> <br>
+	  			<center><input type="submit" name="submit" class="sub btn btn-lg"></center>
+	  		</form>
+	  		</div>
+		</div>
+	</div>
+	</div>
+	<hr>
+</div>
+</body>
+</html>
