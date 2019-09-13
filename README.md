@@ -1,2 +1,2 @@
 # Projects
-Projects listed on my CV
+Some of the projects I have undertaken during my undergraduate degree.
